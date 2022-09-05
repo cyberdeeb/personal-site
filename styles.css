@@ -85,11 +85,14 @@ hr {
   margin: 50px auto;
 }
 
-li, h4 {
+li,
+h4 {
   color: #f8f0e3;
 }
 
-.photo-title, .port-title, .port-desc {
+.photo-title,
+.port-title,
+.port-desc {
   text-align: center;
 }
 
@@ -215,8 +218,11 @@ li, h4 {
 }
 
 @media only screen and (max-width: 600px) {
-  img.linkedin, img.github, img.gmail {
-  width: 8vw;
+
+  img.linkedin,
+  img.github,
+  img.gmail {
+    width: 8vw;
   }
 }
 
@@ -257,7 +263,8 @@ li, h4 {
 }
 
 .linkedin,
-.github, .gmail {
+.github,
+.gmail {
   height: auto;
   max-width: 100%;
   width: 3%;
@@ -288,7 +295,10 @@ li, h4 {
   }
 }
 
-.objective, .work, .education, .skills {
+.objective,
+.work,
+.education,
+.skills {
   margin: 3rem 0rem;
 }
 
